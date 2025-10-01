@@ -7,7 +7,7 @@ const PORT = 80;
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://savaliyasunil25_db_user:123@cluster1.96n9rvq.mongodb.net/songs?retryWrites=true&w=majority&appName=Cluster1",
+  "mongodb+srv://savaliyasunil25_db_user:123@cluster1.96n9rvq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
